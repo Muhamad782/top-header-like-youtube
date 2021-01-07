@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <title>YouTube by Muhammad bin yasir</title>
+</head>
+<body>
+    <div class="top-menu">
+        <img src="user.png">
+        <img src="bell icon.png">
+        <img src="nine dots.png">
+        <img src="upload.png">
+<div class="search">
+        <input type="text" id="search" placeholder="Search For Video....">  <button><i class="fa fa-search" aria-hidden="true"></i></button>  <i class="fa fa-microphone" aria-hidden="true"></i>
+    </div>
+    <div class="yt-logo">
+ <i class="fa fa-bars" onclick="openmenu()"></i>         <img src="yt.png" alt="YouTube Home" >
+    </div>
+    </div> <hr color="#d1d1d1">
+    <div class="all-button">
+        <button style="background-color: #bdbdbd;" class="main">All</button>
+        <button>HTML</button>
+        <button>CSS</button>
+        <button>python</button>
+        <button>Website</button>
+        <button>Monitization</button>
+        <button>Comedy</button>
+        <button>Computer</button>
+        <button>Logos</button>
+        <button>Live</button>
+        <button>HTML</button>
+        <button>CSS</button>
+        <button>python</button>
+        <button>Website</button>
+        <button>Monitization</button>
+        <button>Comedy</button>
+    </div>
+    <div class="content">
+        <div class="left-one" id="left-one">
+            <br><br>
+            <a href="#" style="color: red;"><i class="fa fa-home" aria-hidden="true"></i><br> Home</a>         <br> <br>
+            <a href="#"><i class="fa fa-fire" aria-hidden="true"></i><br>Trending</a><br><br>
+            <a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i><br>Subscription</a><br><br> 
+            <a href="#"><i class="fa fa-book" aria-hidden="true"></i><br>Library</a><br><br>
+        </div>
+        <div class="left" id="menu">
+          <b onclick="cancle()">  &times;</b>
+            <br><br>
+           <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>         <br> <br>
+           <a href="#"><i class="fa fa-fire" aria-hidden="true"></i>Trending</a><br><br>
+           <a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i>Subscription</a><br><br> 
+           <hr color="#d1d1d1">
+           <a href="#"><i class="fa fa-book" aria-hidden="true"></i>Library</a><br><br>
+           <a href="#"><i class="fa fa-retweet" aria-hidden="true"></i>History</a><br><br>
+           <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>Your videos</a><br> <br>
+           <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>Watch later</a><br><br>
+           <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Liked videos</a><br><br>
+           <hr color="#d1d1d1">
+           <a href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>
+            Gaming</a> <br><br>
+           <a href="#"><i class="fa fa-wifi" aria-hidden="true"></i>Live</a>
+           <br><br>
+           <hr color="#d1d1d1">
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .top-menu{
+        width: 100%;
+        height: 7.6vh;
+        background-color: #fff;
+    }
+    .top-menu img{
+        width: 27px;
+        height: 27px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 22px;
+    }
+    .top-menu input[type="text"]
+    {
+        width: 550px;
+        height: 30px;
+        border: 1px solid #d1d1d1;
+        outline: none;
+        transition: 0.1s;
+    }
+    .top-menu input[type="text"]:focus{
+        border: 1px solid #6d6d6d;
+    }
+    .top-menu button{
+        width: 50px;
+        height: 34px;
+        margin-left: -10px;
+        transition: 0.1s;
+        border: 1px solid #d1d1d1;
+        outline: none;
+    }
+    .top-menu button:hover{
+        background-color: #bdbdbd; 
+        border: 1px solid #6d6d6d;  
+    }
+    .top-menu button i{
+        color: #6d6d6d;
+    }
+    .search{
+       margin-left: 330px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+     .fa-microphone{
+        font-size: 25px;
+        margin-left: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .top-menu .fa-microphone{
+        display: inline-block;
+        position: absolute;
+        top: 3%;
+    }
+    .yt-logo img{
+          width: 10%;
+          height: 10%;
+          float: left;
+          margin-top: -30px;
+          margin-left: 100px;
+    }
+    .yt-logo i{
+        position: absolute;
+        bottom: 93%;
+        left: 2%;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .all-button{
+     margin-left: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .all-button button{
+        text-decoration: none;
+        color: #000;
+        width: 70px;
+        font-size: 10px;
+        height: 30px;
+        border: 1px solid #d1d1d1;
+        outline: none;
+        border-radius: 15px;
+        font-weight: bolder;
+    }
+    .all-button button:hover{
+        background-color: #c9c9c9;
+    }
+    .left-one{
+        width: 7%;
+        height: 91vh;
+        background-color: #fff;
+        text-align: center;
+        margin-top: -62px;
+    }
+    .left-one a{
+        text-decoration: none;
+        color: rgb(122, 122, 122);
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    .left-one a i{
+        font-size: 22px;
+    }
+    /*  ********************** content start ********************** */
+
+    .content{
+        width: 100%;
+        height: 85vh;
+        background-color: #f5f0f0;
+        border-top: 1px solid #d1d1d1;
+    }
+    .left{
+        width: 22%;
+        height: 81vh;
+        background-color: #fff;
+        box-shadow: 2px 3px 18px 2px rgba(0,0,0,0.3);
+        display: none;
+        transition: 0.7s;
+    }
+    .left a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        margin-left: 20px;
+    }
+    .left i{
+        margin-right: 25px;
+    }
+    .left b{
+        font-size: 30px;
+        margin-left: 260px;
+        cursor: pointer;
+    }
+</style>
+<script>
+    function openmenu()
+    {
+        document.getElementById("menu").style.display="block";  
+        document.getElementById("left-one").style.display="none";
+    }
+    function cancle()
+    {
+        document.getElementById("menu").style.marginLeft="-282px";  
+        document.getElementById("left-one").style.display="block";
+    }
+</script>
